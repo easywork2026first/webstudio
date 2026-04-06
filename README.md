@@ -1,16 +1,18 @@
 WebStudio
-git remote add origin <URL>
+# 1. Инициализация репозитория
 git init
-git branch
-git branch -M main
-git add .
-git commit -m "Initial commit"
-git push -u origin master
-git remote add origin https://github.com/ТВОЙ_ЛОГИН/ТВОЙ_РЕПОЗИТОРИЙ.git
 
-git init
-git add README.md
-git commit -m "first commit"
+# 2. Добавление всех файлов
+git add .
+
+# 3. Первый коммит
+git commit -m "Первый коммит"
+
+# 4. Переименование ветки master → main (если нужно)
 git branch -M main
+
+# 5. Привязка удалённого репозитория
 git remote add origin https://github.com/easywork2026first/webstudio.git
+
+# 6. Отправка проекта на GitHub
 git push -u origin main
