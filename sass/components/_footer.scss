@@ -1,0 +1,40 @@
+.footer {
+  background-color: $footer-bg-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__conatiner {
+  text-align: center;
+  @media screen and(min-width: 1199px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.footer__box {
+  @media screen and(min-width: 767px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+.adress {
+  @media screen and(min-width: 1199px) {
+    text-align: left;
+  }
+}
+
+.adress__box {
+  margin-top: 20px;
+}
+
+.adress__name {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+
+  color: $footer-contact-color;
+}

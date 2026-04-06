@@ -1,0 +1,116 @@
+.section-team {
+  background-color: var(--team-background-color);
+}
+
+.team-list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+  }
+}
+
+.team-list-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin-bottom: var(--list-right-margin);
+  @media screen and (min-width: 768px) {
+    // width: calc(100% / 2 - 30px);
+    margin-right: var(--list-right-margin);
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: var(--list-right-margin);
+    margin-bottom: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.team-cards {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 24px;
+  background-color: #ffffff;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 30px;
+  }
+}
+
+.team-title {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-text-color);
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+  }
+}
+
+.employee-title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.position-team {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.team-soc-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-soc-item {
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.team-soc-link {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    background-color: var(--bg-icon-color);
+  }
+}
+
+.team-soc-icon {
+  fill: #afb1b8;
+  .team-soc-link:hover & {
+    fill: #ffffff;
+  }
+}
