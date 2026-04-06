@@ -19,14 +19,14 @@
   <body>
     <header class="header">
       <div class="container section-header">
-        <a href="WebStudio" class="nav-logo"
+        <a href="./index.html" class="nav-logo"
           ><span class="nav-logo__web">Web</span>Studio</a>
 
         <div class="tablet-desktop-nav">
           <nav class="nav">
             <ul class="ul nav-td-list">
               <li class="nav-td-list__item">
-                <a href="Студия" class="nav-td-list__link current">Студия</a>
+                <a href="./index.html" class="nav-td-list__link current">Студия</a>
               </li>
               <li class="nav-td-list__item">
                 <a href="./portfolio.html" class="nav-td-list__link"
@@ -34,13 +34,13 @@
                 >
               </li>
               <li class="nav-td-list__item">
-                <a href="Контакты" class="nav-td-list__link">Контакты</a>
+                <a href="#contacts" class="nav-td-list__link">Контакты</a>
               </li>
             </ul>
           </nav>
           <ul class="ul td-contact-list">
-            <li class="td-contact-list__item">
-              <a href="info@devstudio.com" class="td-contact-list__link"
+              <li class="td-contact-list__item">
+              <a href="mailto:info@devstudio.com" class="td-contact-list__link"
                 ><svg class="contact-list__icon" width="16" height="12">
                   <use href="./img/icons.svg#icon-envelope"></use></svg>info@devstudio.com</a>
             </li>
@@ -52,7 +52,7 @@
           </ul>
         </div>
 
-        <button type="button" class="menu-button js-open-menu">
+        <button type="button" class="menu-button js-open-menu" aria-expanded="false">
           <svg
             class="mobile-menu-icon"
             width="40"
@@ -87,13 +87,13 @@
           <nav class="nav">
             <ul class="ul nav-list">
               <li class="nav-list__item">
-                <a href="Студия" class="nav-list__link current">Студия</a>
+                <a href="./index.html" class="nav-list__link current">Студия</a>
               </li>
               <li class="nav-list__item">
                 <a href="./portfolio.html" class="nav-list__link">Портфолио</a>
               </li>
               <li class="nav-list__item">
-                <a href="Контакты" class="nav-list__link">Контакты</a>
+                <a href="#contacts" class="nav-list__link">Контакты</a>
               </li>
             </ul>
           </nav>
@@ -104,7 +104,7 @@
               >
             </li>
             <li class="contact-list__item">
-              <a href="info@devstudio.com" class="contact-list__link"
+              <a href="mailto:info@devstudio.com" class="contact-list__link"
                 ><svg class="contact-list__icon" width="16" height="12">
                   <use href="./img/icons.svg#icon-envelope"></use></svg>info@devstudio.com</a>
             </li>
@@ -117,16 +117,16 @@
           </ul>
           <ul class="ul mobile-social">
             <li class="mobile-social__item">
-              <a class="mobile-social__link" href="">Instagram</a>
+              <a class="mobile-social__link" href="#">Instagram</a>
             </li>
             <li class="mobile-social__item">
-              <a class="mobile-social__link" href="">Twitter</a>
+              <a class="mobile-social__link" href="#">Twitter</a>
             </li>
             <li class="mobile-social__item">
-              <a class="mobile-social__link" href="">Facebook</a>
+              <a class="mobile-social__link" href="#">Facebook</a>
             </li>
             <li class="mobile-social__item">
-              <a class="mobile-social__link" href="">LinkedIn</a>
+              <a class="mobile-social__link" href="#">LinkedIn</a>
             </li>
           </ul>
         </div>
@@ -210,7 +210,7 @@
             <li class="what-we-do-list__item">
               <img
                 srcset="./img/dbox1-1x.jpg 1x, ./img/dbox1-2x.jpg 2x"
-                src="./img/dbox1-1x.jpg 1x"
+                src="./img/dbox1-1x.jpg"
                 alt="печатает человек"
                 width="370"
                 height="294"
@@ -223,7 +223,7 @@
             <li class="what-we-do-list__item">
               <img
                 srcset="./img/dbox2-1x.jpg 1x, ./img/dbox2-2x.jpg 2x"
-                src="./img/dbox2-1x.jpg 1x"
+                src="./img/dbox2-1x.jpg"
                 alt="Просмотр на мониторе"
                 width="370"
                 height="294"
@@ -236,7 +236,7 @@
             <li class="what-we-do-list__item">
               <img
                 srcset="./img/dbox3-1x.jpg 1x, ./img/dbox3-2x.jpg 2x"
-                src="./img/dbox3-1x.jpg 1x"
+                src="./img/dbox3-1x.jpg"
                 alt="Цветовое отображение"
                 width="370"
                 height="294"
@@ -266,7 +266,7 @@
                   srcset="./img/migor-1x.jpg 1x, ./img/migor-2x.jpg 2x"
                   media="(max-width: 767px)"
                 />
-                <img src="./img/digor-1x.jpg 1x," alt="Игорь" />
+                <img src="./img/digor-1x.jpg" alt="Игорь" />
               </picture>
               <h3 class="our-team-list-item__name">Игорь Демьяненко</h3>
               <p class="our-team-list-item__position">Product Designer</p>
@@ -334,7 +334,7 @@
                   media="(max-width: 767px)"
                 />
 
-                <img src="./img/dolga-1x.jpg 1x" alt="Ольга" />
+                <img src="./img/dolga-1x.jpg" alt="Ольга" />
               </picture>
               <h3 class="our-team-list-item__name">Ольга Репина</h3>
               <p class="our-team-list-item__position">Frontend Developer</p>
@@ -401,7 +401,7 @@
                   media="(max-width: 767px)"
                 />
 
-                <img src="./img/dniko-1x.jpg 1x" alt="Николай" />
+                <img src="./img/dniko-1x.jpg" alt="Николай" />
               </picture>
               <h3 class="our-team-list-item__name">Николай Тарасов</h3>
               <p class="our-team-list-item__position">Marketing</p>
@@ -468,7 +468,7 @@
                   media="(max-width: 767px)"
                 />
 
-                <img src="./img/dmisha-1x.jpg 1x" alt="Михаил" />
+                <img src="./img/dmisha-1x.jpg" alt="Михаил" />
               </picture>
               <h3 class="our-team-list-item__name">Михаил Ермаков</h3>
               <p class="our-team-list-item__position">Designer</p>
@@ -527,42 +527,42 @@
           <h2 class="clients-title">Постоянные клиенты</h2>
           <ul class="clients-list ul">
             <li class="clients-item">
-              <a href="" class="clients-link">
+              <a href="#" class="clients-link">
                 <svg class="clients-icons" width="106" height="60">
                   <use href="./img/icons.svg#icon-Logo"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-item">
-              <a href="" class="clients-link">
+              <a href="#" class="clients-link">
                 <svg class="clients-icons" width="106" height="60">
                   <use href="./img/icons.svg#icon-Logo1"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-item">
-              <a href="" class="clients-link">
+              <a href="#" class="clients-link">
                 <svg class="clients-icons" width="106" height="60">
                   <use href="./img/icons.svg#icon-Logo2"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-item">
-              <a href="" class="clients-link">
+              <a href="#" class="clients-link">
                 <svg class="clients-icons" width="106" height="60">
                   <use href="./img/icons.svg#icon-Logo3"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-item">
-              <a href="" class="clients-link">
+              <a href="#" class="clients-link">
                 <svg class="clients-icons" width="106" height="60">
                   <use href="./img/icons.svg#icon-Logo4"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-item">
-              <a href="" class="clients-link">
+              <a href="#" class="clients-link">
                 <svg class="clients-icons" width="106" height="60">
                   <use href="./img/icons.svg#icon-Logo5"></use>
                 </svg>
@@ -574,27 +574,27 @@
     </main>
 
     <footer>
-      <div class="footer">
+        <div class="footer" id="contacts">
         <div class="container footer-section">
           <div class="footer-tablet">
             <address class="address">
-              <a href="WebStudio" class="footer-logo small-hide"
+              <a href="./index.html" class="footer-logo small-hide"
                 ><span class="footer-logo-web">Web</span>Studio</a
               >
               <ul class="ul footer-list">
                 <li class="footer-list-item desk-hide">
-                  <a href="WebStudio" class="footer-logo"
+                  <a href="./index.html" class="footer-logo"
                     ><span class="footer-logo-web">Web</span>Studio</a
                   >
                 </li>
                 <li class="footer-list-item">
-                  <a href="" class="address-geography link"
+                  <a href="#" class="address-geography link"
                     >г. Киев, пр-т Леси Украинки, 26</a
                   >
                 </li>
                 <li class="footer-list-item">
-                  <a href="mailto:info@example.com" class="footer-contact link"
-                    >info@example.com</a
+                  <a href="mailto:info@devstudio.com" class="footer-contact link"
+                    >info@devstudio.com</a
                   >
                 </li>
                 <li class="footer-list-item">
@@ -730,7 +730,7 @@
             <span class="icon-disagree"></span>
             <span class="form-agreement-label"
               >Соглашаюсь с рассылкой и принимаю
-              <a href="" class="conditions">Условия договора</a></span
+              <a href="#" class="conditions">Условия договора</a></span
             >
           </label>
           <button type="submit" class="modal-form-button">Отправить</button>
@@ -742,6 +742,7 @@
         </button>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/body-scroll-lock@3/lib/bodyScrollLock.min.js"></script>
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
   </body>

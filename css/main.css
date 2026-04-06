@@ -363,6 +363,9 @@ picture {
     opacity: 1;
     transform: translateY(0);
   }
+  body.no-scroll {
+    overflow: hidden;
+  }
 }
 
 .nav-list__link {
